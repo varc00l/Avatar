@@ -83,12 +83,13 @@ nav a:not(:last-child) {
 }
 .join {
     background-image: url(/ukraine/img/Group481.jpeg);
+    background-repeat: no-repeat;
     background-size: cover;
     height: 646px;
     
 }
 text {
-    display: flexbox;
+    display: flex;
     align-items: center;
 }
 .text > button {
@@ -101,4 +102,109 @@ text {
     width: 260px;
     height: 80px;
     text-align: center;
+    margin-left: 204px;
+    margin-top: -42px;
+}
+.text1 {
+    width: 298px;
+    margin-bottom: 20px;
+    margin-left: 204px;
+}
+.text2 {
+    width: 376px;
+    margin-left: 204px;
+}
+.vetka {
+    margin-left: 257px;
+}
+.b1 {
+    display: flex;
+    color: #0A3853;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+}
+.b2 {
+    display: flex;
+    color: #0A3853;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+}
+.b3 {
+    display: flex;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+}
+.eagle1 {
+    display: flex;
+    text-align: center;
+
+}
+.trailer {
+    background-image: url(/ukraine/img/Rectangle\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1903px;
+    height: 850px;
+}
+.btrailer {
+    color: #26c6ea;
+    text-align: justify;
+    font-size: 20px;
+    border-radius: 35px 0px;
+    border: 2px solid #26c6ea;
+    background: #0B0E66;
+    width: 260px;
+    height: 80px;
+    text-align: center;
+    margin: 387px 590px 332px 702px;
+}
+.c1 {
+    display: flex;
+    color: #141414;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.c2 {
+    display: flex;
+    color: #141414;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.c3 {
+    display: flex;
+    color: #000;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.eagle2 {
+    display: flex;
+    justify-content: center;
+}
+.cards {
+    background-image: url(/ukraine/img/Rectangle\ 20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+}
+.card {
+    border: 2px solid red;
 }
