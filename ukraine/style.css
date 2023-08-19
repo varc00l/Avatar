@@ -11,15 +11,16 @@ header {
     background-image: url(/Ukraine/img/Rectangle104.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
+    border-bottom: 3px solid #FFF;
     
 }
 .header-wrapper {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border-bottom: 3px solid #FFF;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 39px 0;
 }
 
 .slider {
@@ -57,15 +58,11 @@ nav a:not(:last-child) {
     width: 141px;
     height: 41.694px;
     text-align: center;
-    margin-top: -24px;
-    margin-bottom: 54.31px;
 }
 .switcher {
     display: flex;
     text-decoration: none;
     justify-content: end;
-    padding-top: 65px;
-    padding-top: 65px;
 }
 .switcher > a {
     color: #FFF;
@@ -82,11 +79,13 @@ nav a:not(:last-child) {
     height: 20px;
 }
 .join {
+    display: flex;
     background-image: url(/ukraine/img/Group481.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 646px;
-    
+    justify-content: space-around;
+    align-items: center;
 }
 text {
     display: flex;
@@ -101,24 +100,22 @@ text {
     background: #0B0E66;
     width: 260px;
     height: 80px;
+    margin-top: 42px;
     text-align: center;
-    margin-left: 204px;
-    margin-top: -42px;
 }
 .text1 {
     width: 298px;
-    margin-bottom: 20px;
-    margin-left: 204px;
 }
 .text2 {
     width: 376px;
-    margin-left: 204px;
+   
 }
-.vetka {
-    margin-left: 257px;
+.interval1 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 10px;
 }
 .b1 {
-    display: flex;
     color: #0A3853;
     text-align: center;
     font-family: Inter;
@@ -126,7 +123,6 @@ text {
     font-style: normal;
 }
 .b2 {
-    display: flex;
     color: #0A3853;
     text-align: center;
     font-family: Inter;
@@ -134,7 +130,6 @@ text {
     font-style: normal;
 }
 .b3 {
-    display: flex;
     color: #000;
     text-align: center;
     font-family: Inter;
@@ -142,16 +137,12 @@ text {
     font-style: normal;
 }
 .eagle1 {
-    display: flex;
     text-align: center;
-
 }
 .trailer {
     background-image: url(/ukraine/img/Rectangle\ 10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1903px;
-    height: 850px;
 }
 .btrailer {
     color: #26c6ea;
@@ -165,63 +156,100 @@ text {
     text-align: center;
     margin: 387px 590px 332px 702px;
 }
+.interval2 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
 .c1 {
-    display: flex;
     color: #141414;
-    text-align: justify;
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.c2 {
-    display: flex;
+.c2 {  
     color: #141414;
-    text-align: justify;
     font-family: Inter;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.c3 {
-    display: flex;
+.c3 { 
     color: #000;
-    text-align: justify;
     font-family: Inter;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.eagle2 {
-    display: flex;
-    justify-content: center;
-}
 .cards {
     background-image: url(/ukraine/img/Rectangle\ 20.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 808px;
 }
 .pcards {
-    display: flex;
     color: #141414;
     text-align: justify;
     font-family: HeadlandOne;
     font-size: 32px;
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 45px;
     font-weight: 400;
 }
 .card {
-    display: flexbox;
-    border: 2px solid red;
-}
-.card {
-    width: 320px;
-    height: 240px;
+    display: grid;
+    gap: 24px 36px;
     background: rgba(255, 255, 255, 0.70);
+    align-items: center;
+    border: 5px solid red;
+    justify-content: center;
+    padding-right: 36px;
+
 }
+/* .card2 {
+    display: grid;
+    column-gap: 36px;
+    row-gap: 24px;
+    background: rgba(255, 255, 255, 0.70);
+    align-items: center;
+    justify-content: center;
+}
+.card3 {
+    display: grid;
+    column-gap: 36px;
+    row-gap: 24px;
+    background: rgba(255, 255, 255, 0.70);
+    align-items: center;
+    justify-content: center;
+}
+.card4 {
+    display: grid;
+    column-gap: 36px;
+    row-gap: 24px;
+    background: rgba(255, 255, 255, 0.70);
+    align-items: center;
+    justify-content: center;
+}
+.card5 {
+    display: grid;
+    column-gap: 36px;
+    row-gap: 24px;
+    background: rgba(255, 255, 255, 0.70);
+    align-items: center;
+    justify-content: center;
+}
+.card6 {
+    column-gap: 36px;
+    row-gap: 24px;
+    display: grid;
+    background: rgba(255, 255, 255, 0.70);
+    align-items: center;
+    justify-content: center;
+} */
 .p1card {
     color: #141414;
     text-align: justify;
@@ -243,4 +271,42 @@ text {
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 100% */
+}
+.blockcard {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    grid-template-rows: 240px 240px 240px;
+    justify-content: center;
+}
+.interval3 {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+.a1 {
+    color: #141414;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.a2 {
+    color: #141414;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.a3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.eagle3 {
+
 }
