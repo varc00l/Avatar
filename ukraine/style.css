@@ -307,6 +307,20 @@ text {
     font-weight: 400;
     line-height: normal;
 }
-.eagle3 {
-
+footer {
+    display: flex;
+    background-image: url(/ukraine/img/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #FFF;
+}
+.m {
+    color: #FFF;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.border {
+    border: 269px 0 solid #FFF;
 }
