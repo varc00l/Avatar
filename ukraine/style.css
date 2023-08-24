@@ -23,14 +23,20 @@ header {
     padding: 39px 0;
 }
 
-.slider {
-    position: absolute;
+.switch {
     border-radius: 10px;
     border: 1px solid white;
     display: flex;
     height: 20px;
     width: 36px;
     margin: 0 10px;
+}
+.round {
+    display: inline-block;
+    background-color: #FFF;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
 }
 nav a {
     text-align: center;
@@ -74,10 +80,6 @@ nav a:not(:last-child) {
     font-weight: 400;
     line-height: normal
 }
-.switch {
-    width: 62px;
-    height: 20px;
-}
 .join {
     display: flex;
     background-image: url(/ukraine/img/Group481.jpeg);
@@ -105,9 +107,12 @@ text {
 }
 .text1 {
     width: 298px;
+    color: #FFF;
 }
 .text2 {
     width: 376px;
+    color: #fff;
+
    
 }
 .interval1 {
@@ -323,4 +328,7 @@ footer {
 }
 .border {
     border: 269px 0 solid #FFF;
+}
+.end {
+    color: #FFf;
 }
