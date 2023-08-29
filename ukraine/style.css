@@ -23,7 +23,9 @@ header {
     background-size: cover;
     padding: 39px 0;
 }
-
+.logo1 {
+    padding-left: 204px;
+}
 .switch {
     border-radius: 10px;
     border: 1px solid white;
