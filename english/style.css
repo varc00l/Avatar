@@ -222,46 +222,6 @@ text {
     margin-right: 37px;
     margin-bottom: 24px;
 }
-/* .card2 {
-    display: grid;
-    column-gap: 36px;
-    row-gap: 24px;
-    background: rgba(255, 255, 255, 0.70);
-    align-items: center;
-    justify-content: center;
-}
-.card3 {
-    display: grid;
-    column-gap: 36px;
-    row-gap: 24px;
-    background: rgba(255, 255, 255, 0.70);
-    align-items: center;
-    justify-content: center;
-}
-.card4 {
-    display: grid;
-    column-gap: 36px;
-    row-gap: 24px;
-    background: rgba(255, 255, 255, 0.70);
-    align-items: center;
-    justify-content: center;
-}
-.card5 {
-    display: grid;
-    column-gap: 36px;
-    row-gap: 24px;
-    background: rgba(255, 255, 255, 0.70);
-    align-items: center;
-    justify-content: center;
-}
-.card6 {
-    column-gap: 36px;
-    row-gap: 24px;
-    display: grid;
-    background: rgba(255, 255, 255, 0.70);
-    align-items: center;
-    justify-content: center;
-} */
 .p1card {
     color: #141414;
     text-align: justify;
